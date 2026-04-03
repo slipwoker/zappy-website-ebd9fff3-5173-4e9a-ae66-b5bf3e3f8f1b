@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+B RUN מציעה ייעוץ עסקי מקצועי שמניע תוצאות אמיתיות. אנחנו מלווים בעלי עסקים עם אסטרטגיה חכמה, ניהול מיטבי ופתרונות מותאמים אישית. התחילו את המסע להצלחה עוד היום.
+
+### שירותים
+https://example.com/services
+גלו את מגוון שירותי הייעוץ העסקי והניהול של B RUN. מאסטרטגיה ועד ביצוע, אנחנו מספקים כלים מדויקים שמאיצים צמיחה, מייעלים תהליכים ומביאים תוצאות מדידות לעסקים בישראל.
+
+### אודות
+https://example.com/about
+B RUN היא לא עוד חברת ייעוץ — אנחנו שותפים אסטרטגיים שחיים ונושמים הצלחה עסקית. למדו על הגישה הייחודית שלנו, הניסיון המקצועי ומדוע בעלי עסקים בוחרים בנו שוב ושוב.
+
+### צור קשר
+https://example.com/contact
+מוכנים לשנות את פני העסק שלכם? צרו קשר עם מומחי הייעוץ העסקי של B RUN עוד היום. נשמח לשמוע על האתגרים שלכם ולהציע פתרון מותאם שיוביל אתכם קדימה. אל תחכו — ההזדמנות כאן.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
