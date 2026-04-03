@@ -724,13 +724,13 @@
       <span style="display:block; width:34px; height:3px; background:currentColor; border-radius:2px;"></span>
     </span>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
 
-  <button class="phone-header-btn" data-phone aria-label="Call">
+  <button class="phone-header-btn" data-phone="0543401031" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -749,7 +749,7 @@
     <div class="brun-nav-drawer-header">
       <img src="/assets/b-run-logo.webp" alt="B RUN" style="height:36px; width:auto;">
       <button class="brun-nav-drawer-close" id="brunDrawerClose" aria-label="סגור תפריט">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
       </button>
     </div>
     <ul class="brun-nav-menu nav-menu" id="navMenu">
@@ -1148,7 +1148,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '054-3401031';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -1321,9 +1321,9 @@
       <article class="about-principles-card">
         <div class="about-principles-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <circle cx="16" cy="16" r="13" stroke="currentColor" stroke-width="1.2"/>
-            <line x1="16" y1="9" x2="16" y2="16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <circle cx="16" cy="20" r="1.2" fill="currentColor"/>
+            <circle cx="16" cy="16" r="13" stroke="currentColor" stroke-width="1.2"></circle>
+            <line x1="16" y1="9" x2="16" y2="16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></line>
+            <circle cx="16" cy="20" r="1.2" fill="currentColor"></circle>
           </svg>
         </div>
         <div class="about-principles-card-content">
@@ -1337,8 +1337,8 @@
       <article class="about-principles-card">
         <div class="about-principles-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="6" y="6" width="20" height="20" rx="1" stroke="currentColor" stroke-width="1.2"/>
-            <polyline points="10,16 14,20 22,12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="6" y="6" width="20" height="20" rx="1" stroke="currentColor" stroke-width="1.2"></rect>
+            <polyline points="10,16 14,20 22,12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></polyline>
           </svg>
         </div>
         <div class="about-principles-card-content">
@@ -1352,8 +1352,8 @@
       <article class="about-principles-card">
         <div class="about-principles-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <polyline points="6,22 12,14 18,18 26,8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <polyline points="21,8 26,8 26,13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="6,22 12,14 18,18 26,8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></polyline>
+            <polyline points="21,8 26,8 26,13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></polyline>
           </svg>
         </div>
         <div class="about-principles-card-content">
@@ -1367,9 +1367,9 @@
       <article class="about-principles-card">
         <div class="about-principles-icon-wrap">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="6" y="18" width="5" height="8" stroke="currentColor" stroke-width="1.2" rx="0.5"/>
-            <rect x="13.5" y="12" width="5" height="14" stroke="currentColor" stroke-width="1.2" rx="0.5"/>
-            <rect x="21" y="6" width="5" height="20" stroke="currentColor" stroke-width="1.2" rx="0.5"/>
+            <rect x="6" y="18" width="5" height="8" stroke="currentColor" stroke-width="1.2" rx="0.5"></rect>
+            <rect x="13.5" y="12" width="5" height="14" stroke="currentColor" stroke-width="1.2" rx="0.5"></rect>
+            <rect x="21" y="6" width="5" height="20" stroke="currentColor" stroke-width="1.2" rx="0.5"></rect>
           </svg>
         </div>
         <div class="about-principles-card-content">
@@ -1408,7 +1408,7 @@
         <li class="about-leadership-statement">
           <div class="statement-icon">
             <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M10 2L12.09 7.26L17.78 7.27L13.33 10.58L14.99 16L10 12.9L5.01 16L6.67 10.58L2.22 7.27L7.91 7.26L10 2Z" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+              <path d="M10 2L12.09 7.26L17.78 7.27L13.33 10.58L14.99 16L10 12.9L5.01 16L6.67 10.58L2.22 7.27L7.91 7.26L10 2Z" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round" fill="none"></path>
             </svg>
           </div>
           <div class="statement-body">
@@ -1419,8 +1419,8 @@
         <li class="about-leadership-statement">
           <div class="statement-icon">
             <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <circle cx="10" cy="10" r="7.5" stroke="var(--accent)" stroke-width="1.5"/>
-              <path d="M7 10L9.5 12.5L13 8" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="10" cy="10" r="7.5" stroke="var(--accent)" stroke-width="1.5"></circle>
+              <path d="M7 10L9.5 12.5L13 8" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </div>
           <div class="statement-body">
@@ -1431,7 +1431,7 @@
         <li class="about-leadership-statement">
           <div class="statement-icon">
             <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M3 10H17M10 3L17 10L10 17" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 10H17M10 3L17 10L10 17" stroke="var(--accent)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
           </div>
           <div class="statement-body">
@@ -1492,11 +1492,11 @@
           <ul class="footer-contact">
             <li>
               <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-              <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+              <span class="contact-text"><a href="mailto:barakalon2@gmail.com">barakalon2@gmail.com</a></span>
             </li>
             <li>
               <span class="contact-icon"><i class="fas fa-phone"></i></span>
-              <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+              <span class="contact-text"><a href="tel:054-3401031">054-3401031</a></span>
             </li>
             <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
               <span class="contact-text">[business_address]</span></a></li>
