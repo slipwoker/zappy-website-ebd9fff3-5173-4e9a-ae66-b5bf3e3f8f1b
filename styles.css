@@ -8256,23 +8256,54 @@ body.accessibility-widget-visible ._access-menu {
 /* /Zappy custom logo size */
 
 
-.navbar .mobile-toggle {
-  display: flex !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  position: absolute !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-  right: 24px !important;
-  left: auto !important;
-  z-index: 1002 !important;
-  width: 54px !important;
-  height: 54px !important;
-  padding: 10px !important;
-  background: none !important;
-  border: none !important;
-  cursor: pointer !important;
-  color: var(--nav-text) !important;
+.navbar .brun-nav-shortcuts {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(246,242,232,0.12);
+}
+
+.navbar .brun-nav-shortcuts-title {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(246,242,232,0.45);
+  margin-bottom: 14px;
+}
+
+.navbar .brun-nav-shortcuts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.navbar .brun-nav-shortcut-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  background: rgba(246,242,232,0.06);
+  border: 1px solid rgba(246,242,232,0.1);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-light);
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.navbar .brun-nav-shortcut-item:hover {
+  background: rgba(255,200,61,0.12);
+  border-color: rgba(255,200,61,0.35);
+  color: var(--accent);
+}
+
+.navbar .brun-shortcut-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+  flex-shrink: 0;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
