@@ -8260,42 +8260,14 @@ body.accessibility-widget-visible ._access-menu {
 /* /Zappy custom logo size */
 
 
-.navbar .brun-inline-nav {
-  display: none !important;
-}
-
-.navbar a.brun-nav-cta-btn {
-  display: none !important;
-}
-
-@media screen and (min-width: 769px) {
-.navbar .brun-inline-nav {
-  display: flex !important;
-}
-
-.navbar a.brun-nav-cta-btn {
-  display: inline-flex !important;
-}
-
-.navbar #brunNavDrawer {
-  display: none !important;
-}
-
-.navbar #brunNavOverlay {
-  display: none !important;
-}
-
-.navbar .mobile-toggle {
-  display: none !important;
-}
-
-.navbar .phone-header-btn {
-  display: none !important;
-}
-
-.navbar .brun-inline-nav a:hover {
-  color: var(--nav-text-hover) !important;
-}
+body::before {
+  content: '';
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 100%;
+  background: var(--accent-color);
+  z-index: 9999;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
