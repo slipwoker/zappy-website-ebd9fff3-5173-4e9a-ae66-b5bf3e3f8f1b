@@ -8256,32 +8256,18 @@ body.accessibility-widget-visible ._access-menu {
 /* /Zappy custom logo size */
 
 
-.navbar .brun-nav-menu {
-  display: none !important;
-}
-
-.navbar .nav-menu {
-  display: none !important;
-}
-
 .navbar .mobile-toggle {
-  display: flex !important;
-  position: absolute !important;
-  right: 20px !important;
-  left: auto !important;
-  top: 50% !important;
-  transform: translateY(-50%) !important;
-  z-index: 1001 !important;
-  align-items: center !important;
-  justify-content: center !important;
-  width: 40px !important;
-  height: 40px !important;
-  border-radius: 50% !important;
-  border: none !important;
-  cursor: pointer !important;
-  padding: 6px !important;
-  background: none !important;
-  color: var(--nav-text) !important;
+  width: 60px !important;
+  height: 60px !important;
+  padding: 10px !important;
+}
+
+.navbar .mobile-toggle .hamburger-icon span[style*="font-size"] {
+  font-size: 27px !important;
+}
+
+.navbar .mobile-toggle .hamburger-icon span[style*="width"] {
+  width: 33px !important;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
