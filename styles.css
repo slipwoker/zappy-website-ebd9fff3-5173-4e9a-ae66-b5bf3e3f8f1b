@@ -8238,6 +8238,8 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+
 /* Zappy custom logo size (desktop only — mobile stays at 110px/35px) */
 @media (min-width: 769px) {
   .logo, img.logo, .logo img, .logo-link img, .nav-brand img {
