@@ -8256,28 +8256,12 @@ body.accessibility-widget-visible ._access-menu {
 /* /Zappy custom logo size */
 
 
-html[dir="rtl"] nav.navbar > div,
-html[lang="he"] nav.navbar > div {
+@media (min-width: 769px) {
+.navbar .mobile-toggle {
   display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  flex-direction: row !important;
-  width: 100% !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
-
-html[dir="rtl"] nav.navbar .logo-link,
-html[lang="he"] nav.navbar .logo-link {
-  position: absolute !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  margin: 0 !important;
-}
-
-nav.navbar {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  position: fixed !important;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
