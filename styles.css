@@ -8256,6 +8256,35 @@ body.accessibility-widget-visible ._access-menu {
 /* /Zappy custom logo size */
 
 
+.nav-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  position: relative !important;
+}
+
+.nav-right-group {
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.nav-cta-container {
+  position: absolute !important;
+  left: 24px !important;
+  right: auto !important;
+  margin-left: 0 !important;
+}
+
+.navbar .logo {
+  width: 260px !important;
+  height: auto !important;
+  max-height: 70px !important;
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
