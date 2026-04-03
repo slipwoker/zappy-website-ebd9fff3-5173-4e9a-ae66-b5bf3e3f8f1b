@@ -347,7 +347,70 @@
       <img src="/assets/b-run-logo.webp" alt="B RUN" class="logo" />
     </a>
   </div>
+
+  <!-- Overlay backdrop -->
+  <div class="brun-nav-overlay" id="brunNavOverlay"></div>
+
+  <!-- Slide-in Drawer Menu -->
+  <div class="brun-nav-drawer" id="brunNavDrawer" role="navigation" aria-label="תפריט ראשי">
+    <div class="brun-nav-drawer-header">
+      <img src="/assets/b-run-logo.webp" alt="B RUN" style="height:36px; width:auto;" />
+      <button class="brun-nav-drawer-close" id="brunDrawerClose" aria-label="סגור תפריט">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <ul class="brun-nav-menu nav-menu" id="navMenu">
+      <li><a href="/">בית</a></li>
+      <li><a href="/services">שירותים</a></li>
+      <li><a href="/about">אודות</a></li>
+      <li><a href="/contact">צור קשר</a></li>
+    </ul>
+    <div class="brun-nav-drawer-cta">
+      <a href="/contact" class="brun-nav-cta-btn">דברו איתנו</a>
+    </div>
+  </div>
 </nav>
+
+<script>
+(function() {
+  window.addEventListener('load', function() {
+    var toggle = document.getElementById('mobileToggle');
+    var drawer = document.getElementById('brunNavDrawer');
+    var overlay = document.getElementById('brunNavOverlay');
+    var closeBtn = document.getElementById('brunDrawerClose');
+
+    function openDrawer() {
+      drawer.classList.add('open');
+      overlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      var hamburgerIcon = toggle && toggle.querySelector('.hamburger-icon');
+      var closeIcon = toggle && toggle.querySelector('.close-icon');
+      if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'none', 'important');
+      if (closeIcon) closeIcon.style.setProperty('display', 'block', 'important');
+    }
+    function closeDrawer() {
+      drawer.classList.remove('open');
+      overlay.classList.remove('open');
+      document.body.style.overflow = '';
+      var hamburgerIcon = toggle && toggle.querySelector('.hamburger-icon');
+      var closeIcon = toggle && toggle.querySelector('.close-icon');
+      if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'flex', 'important');
+      if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
+    }
+
+    if (toggle) toggle.addEventListener('click', function(e) { e.stopPropagation(); openDrawer(); });
+    if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+    if (overlay) overlay.addEventListener('click', closeDrawer);
+
+    var links = drawer ? drawer.querySelectorAll('a') : [];
+    links.forEach(function(link) {
+      link.addEventListener('click', function() {
+        if (this.getAttribute('href') !== '#') closeDrawer();
+      });
+    });
+  });
+})();
+</script>
 <script>
 
 // Navbar Mobile Menu Toggle and Contrast Fix

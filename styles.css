@@ -8256,12 +8256,12 @@ body.accessibility-widget-visible ._access-menu {
 /* /Zappy custom logo size */
 
 
-@media (min-width: 769px) {
-.navbar .mobile-toggle {
-  display: flex !important;
-  visibility: visible !important;
-  opacity: 1 !important;
+.navbar .brun-nav-drawer {
+  right: -320px !important;
 }
+
+.navbar .brun-nav-drawer.open {
+  right: 0 !important;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
